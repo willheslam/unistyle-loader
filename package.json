@@ -1,0 +1,23 @@
+{
+  "name": "unistyle-loader",
+  "version": "0.0.1",
+  "description": "A Webpack Loader for Unistyle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willheslam/unistyle-loader.git"
+  },
+  "author": "William Heslam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willheslam/unistyle-loader/issues"
+  },
+  "homepage": "https://github.com/willheslam/unistyle-loader#readme",
+  "dependencies": {
+    "unistyle": "^0.3.0"
+  },
+  "engines" : { "node" : ">=4.2.2" }
+}
