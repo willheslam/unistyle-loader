@@ -9,7 +9,10 @@ A Webpack Loader for Unistyle
 Example loader config:
 
 ``` javascript
-{ test: /\.css.js$/, loader: 'style-loader!css-loader!unistyle-loader!babel-loader' }
+{ 
+	test: /\.css.js$/,
+	loader: 'style-loader!css-loader!unistyle-loader!babel-loader'
+}
 ```
 
 Or inline:
