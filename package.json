@@ -1,6 +1,6 @@
 {
   "name": "unistyle-loader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Webpack Loader for Unistyle",
   "main": "index.js",
   "scripts": {
