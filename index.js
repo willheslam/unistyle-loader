@@ -3,9 +3,13 @@ const unistyle = require('unistyle');
 module.exports = function(source, map) {
 	if(this.cacheable) this.cacheable();
 	const callback = this.async();
-	unistyle(this.exec(source)).then(result => {
-		callback(null, result);
-	}).catch(reason => {
+	try{
+		unistyle((typeof obj === 'string') ? this.exec(source) : source).then(result => {
+			callback(null, result);
+		}).catch(reason => {
+			callback(reason);
+		});
+	}catch(e){
 		callback(reason);
-	});
+	}
 };
