@@ -10,6 +10,6 @@ module.exports = function(source, map) {
 			callback(reason);
 		});
 	}catch(e){
-		callback(reason);
+		callback(e);
 	}
 };
